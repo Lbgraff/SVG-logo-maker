@@ -30,7 +30,7 @@ inquirer
                 userSVG.setText()
                 userSVG.setShape(userShape.render())
                 console.log(userSVG.render(),userSVG)
-                svgOutput("LOGOOUTPUT.svg",userSVG.render())
+                svgOutput("logo.svg",userSVG.render())
                 break;
             case 'square':
                 userShape = new Square()
@@ -39,7 +39,7 @@ inquirer
                 userSVG.setText()
                 userSVG.setShape(userShape.render())
                 console.log(userSVG.render(),userSVG)
-                svgOutput("LOGOOUTPUT.svg",userSVG.render())
+                svgOutput("logo.svg",userSVG.render())
                 break;
             case 'circle':
                 userShape = new Circle()
@@ -48,7 +48,7 @@ inquirer
                 userSVG.setText()
                 userSVG.setShape(userShape.render())
                 console.log(userSVG.render(),userSVG)
-                svgOutput("LOGOOUTPUT.svg",userSVG.render())
+                svgOutput("logo.svg",userSVG.render())
                 break;
         }
     })
@@ -60,6 +60,6 @@ inquirer
 
 function svgOutput(filename, fileRender) {
     fs.writeFile(filename,fileRender, (err) =>
-        err ? console.log(err) : console.log('Success!')
+        err ? console.log(err) : console.log('Success! Generated logo.svg')
     );
 }

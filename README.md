@@ -24,4 +24,4 @@ I referred to the class activities and mini-project for examples as well as the 
 
 Github repo for project: https://github.com/Lbgraff/SVG-logo-maker
 
-Link to walkthrough video: https://drive.google.com/file/d/1KVdqhWTJ185eaZ5H7CEeZPtjY-e45KiB/view
+Link to walkthrough video: https://drive.google.com/file/d/1CzTUGh8yOVRfEMwx6gKmfrFj8reYb_vf/view
